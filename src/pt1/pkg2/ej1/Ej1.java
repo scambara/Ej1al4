@@ -18,7 +18,8 @@ public class Ej1 {
   vec [4] = "u";  
 }
 	public static void main(String[] args) throws IOException {
- 
+            
+            
 		int counterA=0,counterE=0,counterI=0,counterO=0,counterU=0;
                 int counter_consonants = 0;
  

@@ -37,7 +37,7 @@ public class Ej3 {
     }
 
      /**
-      * @description convert ARN to ADN
+      * Converts ARN to ADN.
       * @author Sergio
       */
     private static void ADN_Conversion() {
@@ -53,7 +53,7 @@ public class Ej3 {
     
     /**
      * 
-     * @description convert ADN to ARN
+     * Converts ADN to ARN.
      * @author Sergio
      */
     private static void ARN_Conversion() {

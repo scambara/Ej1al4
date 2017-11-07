@@ -28,10 +28,12 @@ public class Ej2 {
         ini++;
         fin--;
         }
+                
         if(espalin)
             System.out.print("\nIt's palindrome.");
         else
             System.out.print("\nIt's not palindrome.");
         
     }
+ 
 }

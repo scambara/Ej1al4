@@ -33,6 +33,9 @@ public class Ej8 {
     
 //FUNCTIONS
 
+    /**
+     * This function gets your name.
+     */
 public static void name(){     
     
         System.out.println("Input your name");
@@ -47,7 +50,9 @@ public static void name(){
             }     
 }    
 
-
+/**
+ * This function gets your nif.
+ */
 public static void nif(){
     
     System.out.println("Input your NIF: (exemple: 12345678Z)");
@@ -60,6 +65,11 @@ public static void nif(){
     }
 }
 
+/**
+ * This function validate your NIF.
+ * @param NIF
+ * @return 
+ */
 public static boolean validateNif(String NIF){
         boolean correcto=false;
         Pattern pattern=Pattern.compile("(\\d{1,8})([TRWAGMYFPDXBNJZSQVHLCKEtrwagmyfpdxbnjzsqvhlcke])");
@@ -80,7 +90,9 @@ public static boolean validateNif(String NIF){
         }
         return correcto;
     }
-
+/**
+ * This function gets your age.
+ */
 public static void age() {
      System.out.println("Input your age: ");
      int age = sc.nextInt();
@@ -93,6 +105,9 @@ public static void age() {
      
     }
 
+/**
+ * This function gets your weight.
+ */
 public static void weight(){
      System.out.println("Input your weight: ");
      double weight = sc.nextDouble();
@@ -105,6 +120,9 @@ public static void weight(){
 
 }
 
+/**
+ * This function gets your email.
+ */
 public static void email(){
     System.out.println("Input your mail: ");
     String email = sc.nextLine(); 
@@ -114,7 +132,11 @@ public static void email(){
  
     }
 
-
+/**
+ * This function validate your email.
+ * @param email
+ * @return 
+ */
 public static boolean validateEmail(String email) {
      String PATTERN_EMAIL = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
             + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
